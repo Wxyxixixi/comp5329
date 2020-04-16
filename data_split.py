@@ -19,7 +19,7 @@ c = np.array(range(0, 10))
 
 
 def train_val_split(data, label, ratio=0.75, shuffle=False,):
-    # ratio为测试/validation
+    # ratio为train/validation
     # shuffle为是否要打乱顺序
     # train,train_label为训练数据
     # val, val_label为验证数据
